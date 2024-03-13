@@ -6,6 +6,10 @@ import { Route, Routes } from "react-router-dom";
 import "./index.css";
 import Home from "./Pages/Home.jsx";
 import Start from "./Pages/GetStarted.jsx";
+import Terms from "./Components/Terms.jsx";
+import Features from "./Pages/Features.jsx";
+import Team from "./Pages/Team.jsx";
+import Contact from "./Pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +19,22 @@ const router = createBrowserRouter([
   {
     path: "start",
     element: <Start />,
+  },
+  {
+    path: "Team",
+    element: <Team />,
+  },
+  {
+    path: "Contact",
+    element: <Contact />,
+  },
+  {
+    path: "terms",
+    element: <Terms />,
+  },
+  {
+    path: "Features",
+    element: <Features />
   },
 ]);
 

@@ -36,7 +36,7 @@ function Home() {
                 >
                   I agree with the{" "}
                   <a
-                    href="#"
+                    href="./terms"
                     className="text-blue-600 dark:text-blue-500 hover:underline"
                   >
                     terms and conditions
